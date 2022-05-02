@@ -1,5 +1,5 @@
-name: 🐞 Bug Report
-description: File a bug report here
+name: 🐞 Achei um Bug!
+description: Reporte um bug aqui
 title: "[BUG]: "
 labels: ["bug"]
 assignees: ["alessfm"]
@@ -7,32 +7,34 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report 🤗
-        Make sure there aren't any open/closed issues for this topic 😃
+        Obrigado por informar sobre o bug 🤗
+        Por favor, antes de relatar, olhe as *issues* para ver se esse bug já foi reportado 😃
         
   - type: textarea
-    id: bug-description
+    id: descrição
     attributes:
-      label: Description of the bug
-      description: Give us a brief description of what happened and what should have happened
+      label: Descrição
+      description: O que aconteceu? O que deveria ter acontecido?
+      placeholder: |
+        Forneça logs, screenshots, o máximo de informação que ajude
     validations:
       required: true
       
   - type: textarea
-    id: steps-to-reproduce
+    id: como-reproduzir
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: Como reproduzir?
+      description: O que dever ser feito para o bug acontecer?
       placeholder: |
-        1. Go to '...'
-        2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+        1. Vá para '...'
+        2. Clique no '...'
+        3. Veja o erro '...'
     validations:
       required: true
+
   - type: textarea
-    id: additional-information
+    id: informação-adicional
     attributes:
-      label: Additional Information
+      label: Informação adicional
       description: |
-        Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
+        Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.

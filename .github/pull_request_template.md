@@ -1,26 +1,37 @@
 <!-- 
-Thanks for creating this pull request 🤗
-
-Please make sure that the pull request is limited to one type (docs, feature, etc.) and keep it as small as possible. You can open multiple prs instead of opening a huge one.
+Obrigado por criar essa *Pull Request* 🤗
 -->
 
-<!-- If this pull request closes an issue, please mention the issue number below -->
-Closes # <!-- Issue # here -->
+<!-- Se ela fecha alguma *issue*, por favor adicione o ID dela onde houver 'Issue' e descomente a mesma linha: -->
 
-## 📑 Description
-<!-- Add a brief description of the pr -->
+<!-- Fecha a #Issue -->
 
-<!-- You can also choose to add a list of changes and if they have been completed or not by using the markdown to-do list syntax
-- [ ] Not Completed
-- [x] Completed
+## ☑ CI/CD
+<!-- Marque com base no que você fez -->
+
+- Seu código requer mudanças na documentação?
+  - [ ] Não há necessidade
+  - [ ] Sim e eu atualizei a documentação
+  - [ ] Sim, mas eu não atualizei a documentação
+  - [ ] Não sei
+<!-- Para mais informações a respeito disso acima, olhe: https://alessfm.github.io/gardenos/  -->
+- Seu código passou com sucesso em **todos** os testes?
+  - [ ] Não há nenhum teste
+  - [ ] Sim
+  - [ ] Não
+  - [ ] Não executei os testes
+<!-- Para mais informações a respeito disso acima, olhe: https://alessfm.github.io/gardenos/  -->
+
+## 📖 Descrição
+<!-- Faça da forma que achar melhor para explicar
+
+
+
 -->
 
-## ✅ Checks
-<!-- Make sure your pr passes the CI checks and do check the following fields as needed - -->
-- [ ] My pull request adheres to the code style of this project
-- [ ] My code requires changes to the documentation
-- [ ] I have updated the documentation as required
-- [ ] All the tests have passed
+## ℹ Informação adicional
+<!-- Algo que não se encaixa na descrição, mas vale a pena informar 
 
-## ℹ Additional Information
-<!-- Any additional information like breaking changes, dependencies added, screenshots, comparisons between new and old behavior, etc. -->
+
+
+-->

@@ -1,15 +1,15 @@
-name: ✨Feature Request
-description: Request a new feature or enhancement
+name: ✨Requerimento de Mudanças
+description: Peça uma mudança, adição, melhoria...
 labels: ["enhancement"]
 title: "[FEAT]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Please make sure this feature request hasn't been already submitted by someone by looking through other open/closed issues
+        Por favor, antes de relatar, olhe as *issues* para ver se essa requisição já foi solicitada 😃
   
   - type: textarea
-    id: description
+    id: descrição
     attributes:
       label: Description
       description: Give us a brief description of the feature or enhancement you would like
@@ -17,7 +17,7 @@ body:
       required: true
       
   - type: textarea
-    id: additional-information
+    id: informação-adicional
     attributes:
-      label: Additional Information
-      description: Give us some additional information on the feature request like proposed solutions, links, screenshots, etc.
+      label: Informação adicional
+      description: Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.
