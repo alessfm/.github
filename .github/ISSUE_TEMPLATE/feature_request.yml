@@ -1,6 +1,7 @@
 name: ✨Requerimento de Mudanças
 description: Peça uma mudança, adição, melhoria...
 labels: ["enhancement"]
+assignees: ["alessfm"]
 title: "[FEAT]: "
 body:
   - type: markdown
