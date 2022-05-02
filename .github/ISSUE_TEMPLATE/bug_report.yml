@@ -11,7 +11,7 @@ body:
         Por favor, antes de relatar, olhe as *issues* para ver se esse bug já foi reportado 😃
         
   - type: textarea
-    id: descrição
+    id: descricao
     attributes:
       label: Descrição
       description: O que aconteceu? O que deveria ter acontecido?
@@ -33,7 +33,7 @@ body:
       required: true
 
   - type: textarea
-    id: informação-adicional
+    id: informacao-adicional
     attributes:
       label: Informação adicional
       description: |
