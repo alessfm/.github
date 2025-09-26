@@ -1,5 +1,5 @@
-name: 🐛 - Achei um Bug!
-description: Reporte uma falha/erro do sistema
+name: 🐛 Achei um Bug!
+description: Reporte uma falha/erro do sistema ou documentação
 title: "[BUG]: "
 labels: ["bug"]
 assignees: ["alessfm"]
@@ -9,16 +9,16 @@ body:
       value: |
         Obrigado por nos informar sobre o bug 🤗
         Por favor, antes de relatar, olhe as *issues* para ver se já foi reportado 😃
+
   - type: textarea
     id: descricao
     attributes:
       label: Descrição
       description: O que aconteceu? O que deveria ter acontecido?
-      placeholder: |
-        Forneça logs, screenshots, o máximo de informação que ajude
+      placeholder: Forneça logs, screenshots, o máximo de informação que ajude
     validations:
       required: true
-      
+
   - type: textarea
     id: como-reproduzir
     attributes:
@@ -35,7 +35,5 @@ body:
     id: informacao-adicional
     attributes:
       label: Informação adicional
-      description: |
-        Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.
-      placeholder: |
-        Digite aqui...
+      description: Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.
+      placeholder: Digite aqui...
