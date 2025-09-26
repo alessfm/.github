@@ -1,5 +1,5 @@
-name: 🐞 Achei um Bug!
-description: Reporte um bug aqui
+name: 🐛 - Achei um Bug!
+description: Reporte uma falha/erro do sistema
 title: "[BUG]: "
 labels: ["bug"]
 assignees: ["alessfm"]
@@ -7,9 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Obrigado por informar sobre o bug 🤗
-        Por favor, antes de relatar, olhe as *issues* para ver se esse bug já foi reportado 😃
-        
+        Obrigado por nos informar sobre o bug 🤗
+        Por favor, antes de relatar, olhe as *issues* para ver se já foi reportado 😃
   - type: textarea
     id: descricao
     attributes:
@@ -38,3 +37,5 @@ body:
       label: Informação adicional
       description: |
         Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.
+      placeholder: |
+        Digite aqui...
