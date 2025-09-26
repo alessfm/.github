@@ -1,24 +1,25 @@
-name: ✨Requerimento de Mudanças
-description: Peça uma mudança, adição, melhoria...
+name: 👀 Quero mudanças!
+description: Solicite uma melhoria, adição...
+title: "[FEAT]: "
 labels: ["enhancement"]
 assignees: ["alessfm"]
-title: "[FEAT]: "
 body:
   - type: markdown
     attributes:
-      value: |
-        Por favor, antes de relatar, olhe as *issues* para ver se essa requisição já foi solicitada 😃
-  
+      value: Por favor, antes de relatar, olhe as *issues* para ver se já foi solicitada 😃
+
   - type: textarea
     id: descricao
     attributes:
-      label: Description
-      description: Give us a brief description of the feature or enhancement you would like
+      label: Descrição
+      description: O que gostaria?
+      placeholder: Forneça logs, screenshots, o máximo de informação que ajude
     validations:
       required: true
-      
+
   - type: textarea
     id: informacao-adicional
     attributes:
       label: Informação adicional
       description: Qualquer informação que não se encaixa na descrição, mas que é útil e deve ser informada.
+      placeholder: Digite aqui...
